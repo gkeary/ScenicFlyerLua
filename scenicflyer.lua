@@ -22,7 +22,7 @@ function Flyer()
 	local pos = 0
 --	pos = bubble(20, pos, "Scenic Flyer:", "If you want to throw these stupid bubbles away,", 'just erase the file "stupid bubble test.lua" and they are gone forever!')
 --	pos = big_bubble(20, pos, "You might says:", "What the hell are these bubbles for?")
-	pos = huge_bubble(20, pos, "Scenic_flyer STatus:", "Go and enjoy your flight!", "It will be easy to do this with me onboard.", "I will give you some TIPS.")
+	pos = huge_bubble(20, pos, "Tickle Scenic_flyer:", "Use CTRL-A and CTRL-W", "Move Scenic Flyer around", "Do not: ", "Tryto program X-Plane commands with Lua(yet)")
 end
 
 do_every_draw("Flyer()")
